@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="xpush-sdk-v1.0-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-android-extensions-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/jxmpp-core-0.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-im-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-android-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-core-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-sasl-provided-4.1.1.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/minidns-0.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-extensions-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/smack-tcp-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/xpush-sdk-v1.0/jars/libs/jxmpp-util-cache-0.5.0-alpha6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'//添加
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false// 去处无用代码
+            shrinkResources false //去处无用资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:support-v4:22.0.0'
+
+    //smack 4.1
+//    compile "org.igniterealtime.smack:smack-tcp:4.1.1"
+//    compile "org.igniterealtime.smack:smack-android:4.1.1"
+//    compile "org.igniterealtime.smack:smack-android-extensions:4.1.1"
+//    compile "org.igniterealtime.smack:smack-experimental:4.1.1"
+}
+
+/*task clearJar(type: Delete) {
+    delete 'build/outputs/xpushSDK-v0.0.1.jar'
+}
+
+task makeJar(type: Copy) {
+    //build\intermediates\bundles\release
+    from('build/intermediates/bundles/release/')
+    into('build/outputs/')
+    include('classes.jar')
+    rename ('classes.jar', 'xpushSDK-v0.0.1.jar')
+}
+
+makeJar.dependsOn(clearJar, build)*/
+
+//添加
+publish  {
+    userOrg  = 'yndongyong'//bintray.com用户名
+    groupId  = 'com.yndy'//jcenter上的路径
+    artifactId  = 'xpush'//项目名称
+    publishVersion = '0.0.1'//版本号
+    desc  = '基于openfire的推送sdk'//描述，不重要
+    website  = 'null'//网站，不重要  //默认的引用方式为：compile 'com.yndy:xpush:0.0.1'
+} 
