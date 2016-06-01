@@ -5,7 +5,6 @@ package com.ynyx.epic.xpush.example.store;
  */
 public class ConstDefine {
 
-//    public final static String PUSH_SERVER_HOST = "10.111.12.14";
     public final static String PUSH_SERVER_HOST = "120.24.160.24";
     public final static String PUSH_SERVER_NAME = "skysea.com";
     public final static int PUSH_SERVER_PORT =5222;
